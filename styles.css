@@ -1,8 +1,25 @@
 body{
-  background:#efdec1;
+  background:#a2e7235e;
   font-size:14px;
   font-family:Verdana,sans-serif;
 }
+
+.midashi{
+  background: #f58450;
+  width:50%;
+  margin: 4px auto;
+}
+
+h1{
+  text-align:center;
+  padding:4px 0;
+}
+
+h2{
+  text-align:center;
+  color:#63638d;
+}
+
 
 .container{
   width:400px;
@@ -12,6 +29,7 @@ body{
   padding:16px;
   user-select: none;
   position:relative;
+  text-align: center;
 }
 
 #question{
@@ -35,7 +53,7 @@ body{
 }
 
 #choices > li:hover{
-  background:#f8f8f8;
+  background:#ececec;
 }
 
 #choices > li.correct::after{
